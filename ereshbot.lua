@@ -51,13 +51,16 @@ client:on('messageCreate', function(message)
             message.channel:send('Lista de comandos:\nDados:\n>D4: lança um dado de 4 faces\n>D6: lança um dado de 6 faces\n>D8: lança um dado de 8 faces\n>D10: lança um dado de 10 faces\n>D12: lança um dado de 12 faces\n>D20: lança um dado de 20 faces\n\n>Discordia: Github Discordia\n>MemberCount: número de membros no server\n>Move @(usuario): move o usuário mencionado para o seu canal\n>Region: mostra a região atual do servidor\n\nbot feito por natã/wolfgan/bnegão :D')
             answered = true
 
-        elseif(msgCmd == 'move' and guild)    then
-            if(#mentioned == 1)  then
-                local mentionedMember = guild:getMember(mentioned[1][1])
-                mentionedMember:setVoiceChannel(member.voiceChannel.id)
-                message.channel:send(mentionedMember.nickname..' foi movido para o canal '..member.voiceChannel.name..' por '..member.nickname)
-                answered = true
-            end
+        elseif(msgCmd == 'play')    then
+            local connection = message.member.voiceChannel:join()
+            connection:playFFmpeg('teste.mp3')
+        --elseif(msgCmd == 'move' and guild)    then
+        --    if(#mentioned == 1)  then
+        --        local mentionedMember = guild:getMember(mentioned[1][1])
+        --        mentionedMember:setVoiceChannel(member.voiceChannel.id)
+        --        message.channel:send(mentionedMember.nickname..' foi movido para o canal '..member.voiceChannel.name..' por '..member.nickname)
+        --        answered = true
+        --    end
 
         elseif(msgCmd == 'discordia')    then
             message.channel:send('https://github.com/SinisterRectus/Discordia')
