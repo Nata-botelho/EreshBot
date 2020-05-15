@@ -46,21 +46,64 @@ client:on('messageCreate', function(message)
         local author = message.author
         local guild = message.guild
         local mentioned = message.mentionedUsers
-        
+
         if(msgCmd == 'help')   then
-            message.channel:send('Lista de comandos:\nDados:\n>D4: lança um dado de 4 faces\n>D6: lança um dado de 6 faces\n>D8: lança um dado de 8 faces\n>D10: lança um dado de 10 faces\n>D12: lança um dado de 12 faces\n>D20: lança um dado de 20 faces\n\n>Discordia: Github Discordia\n>MemberCount: número de membros no server\n>Move @(usuario): move o usuário mencionado para o seu canal\n>Region: mostra a região atual do servidor\n\nbot feito por natã/wolfgan/bnegão :D')
+            message:reply {
+                embed = {
+                    title = "Help Page",
+                    description = "Fala fiote, sou a EreshBot (referência  a melhor lancer de fate)",
+                    author = {
+                        name = client.user.name,
+                        icon_url = client.user.avatarURL
+                    },
+                    fields = { -- array of fields
+                        {
+                            name = "MUSIC",
+                            value = "`play radio:`  Toca a rádio Olimpo Rocks\n`play pause:`  Pausa o player de áudio\n`play resume:`  Reativa o player de áudio caso esteja pausado\n`play stop:`  Para o player de áudio e o desativa\n",
+                            inline = false
+                        },
+                        {
+                            name = "RPG",
+                            value = "`d4:` Lança um dado de 4 faces\n`d6:` Lança um dado de 6 faces\n`d8:` Lança um dado de 8 faces\n`d10:` Lança um dado de 10 faces\n`d12:` Lança um dado de 12 faces\n`d20:` Lança um dado de 20 faces\n",
+                            inline = false
+                        },
+                        {
+                            name = "MISC",
+                            value = "`discordia:` Link do github do discordia\n`ereshgit:` Link do github da EreshBot\n`membercount:` Mostra o número de membros do servidor\n`region` Mostra a região do servidor\n",
+                            inline = false
+                        }
+                    },
+                    footer = {
+                        text = "Created with Discordia by Natã Botelho"
+                    },
+                    color = 0xbd0000 -- hex color code
+                }
+            }      
             answered = true
 
+        elseif(msgCmd == 'ereshgit') then
+            message.channel:send('https://github.com/Nata-botelho/EreshBot')
+            
         elseif(msgCmd == 'play')    then
-            local connection = message.member.voiceChannel:join()
-            connection:playFFmpeg('teste.mp3')
-        --elseif(msgCmd == 'move' and guild)    then
-        --    if(#mentioned == 1)  then
-        --        local mentionedMember = guild:getMember(mentioned[1][1])
-        --        mentionedMember:setVoiceChannel(member.voiceChannel.id)
-        --        message.channel:send(mentionedMember.nickname..' foi movido para o canal '..member.voiceChannel.name..' por '..member.nickname)
-        --        answered = true
-        --    end
+            if(member)  then
+                local connection = member.voiceChannel:join()
+                if(msgArg == 'radio')   then  
+                    coroutine.wrap(function() 
+                        message.channel:send('Tocando rádio Olimpo Rocks')
+                        connection:playFFmpeg('http://olimpo.rocks:8000/jazz')
+                    end)()
+                elseif(msgArg == 'pause')   then
+                    connection:pauseStream()
+                    message.channel:send('Player pausado')
+                elseif(msgArg == 'stop')    then
+                    connection:stopStream()
+                    connection:close()
+                    message.channel:send('Player fechado')
+                elseif(msgArg == 'resume')  then
+                    connection:resumeStream()
+
+                end
+            end
 
         elseif(msgCmd == 'discordia')    then
             message.channel:send('https://github.com/SinisterRectus/Discordia')
@@ -80,7 +123,6 @@ client:on('messageCreate', function(message)
                 message.channel:send('Banindo '..mentionedMember.nickname..' em 10 segundos')
                 answered = true
             end
-            
             
         elseif(answered == false) then
             local result = dice(msgCmd)
