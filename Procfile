@@ -1,1 +1,1 @@
-web: luvit .
+web: luvit ereshbot.lua

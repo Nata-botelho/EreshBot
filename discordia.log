@@ -9778,3 +9778,10 @@
 2020-09-02 22:14:31 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
 2020-09-02 22:14:31 | [INFO]    | Shard 0 : Received HELLO
 2020-09-02 22:14:31 | [INFO]    | Shard 0 : Received READY
+2020-09-02 19:56:26 | [INFO]    | Discordia 2.8.3
+2020-09-02 19:56:26 | [INFO]    | Connecting to Discord...
+2020-09-02 19:56:26 | [INFO]    | Authenticated as EreshBot#0778
+2020-09-02 19:56:26 | [INFO]    | Launching shard 0 (1 out of 1)...
+2020-09-02 19:56:27 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2020-09-02 19:56:27 | [INFO]    | Shard 0 : Received HELLO
+2020-09-02 19:56:27 | [INFO]    | Shard 0 : Received READY
