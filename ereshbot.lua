@@ -6,6 +6,8 @@ local file = io.open("token.tkn", "r")
 local token = file:read "*a"
 file:close()
 
+--falar quando alguém entrar no canal de voz: ttls
+
 --initialize random number generation for dices
 math.randomseed(os.time())
 math.random(); math.random(); math.random()
@@ -13,6 +15,7 @@ math.random(); math.random(); math.random()
 client:on('ready', function()
     client:setGame('Fate/Grand Order')
     print("Logged as "..client.user.username)
+    
 end)
 
 client:on('memberJoin', function(member)
@@ -84,7 +87,7 @@ client:on('messageCreate', function(message)
         elseif(msgCmd == 'ereshgit') then
             message.channel:send('https://github.com/Nata-botelho/EreshBot')
             
-        elseif(msgCmd == 'play')    then
+        elseif(msgCmd == 'play') then
             if(member)  then
                 local connection = member.voiceChannel:join()
                 if(msgArg == 'radio')   then  
