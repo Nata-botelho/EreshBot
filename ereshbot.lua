@@ -2,9 +2,10 @@ local discordia = require('discordia')
 local client = discordia.Client()
 local prefix = ">"
 
-local file = io.open("token.tkn", "r")
-local token = file:read "*a"
-file:close()
+--local file = io.open("token.tkn", "r")
+--local token = file:read "*a"
+--file:close()
+local token = "NzA5MDY1OTEwMDk0MjY2NDI4.XrgfFg.xK1GWGVhQNZny2msEXHKfs-mP-Q"
 
 --initialize random number generation for dices
 math.randomseed(os.time())
