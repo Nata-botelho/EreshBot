@@ -13,6 +13,10 @@ luac.out
 *.obj
 *.elf
 
+#discord token
+*.tkn
+*.tkn.save
+
 # Precompiled Headers
 *.gch
 *.pch
