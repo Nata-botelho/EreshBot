@@ -2,6 +2,18 @@ local discordia = require('discordia')
 local client = discordia.Client()
 local prefix = ">"
 
+local http = require("http")
+
+local port = process.env["PORT"]
+
+http.createServer(function(req, res)
+	local body = "Hello world\n"
+	res:setHeader("Content-Type", "text/plain")
+	res:setHeader("Content-Length", #body)
+	res:finish(body)
+end):listen(port)
+
+print("Server listening on port "..port)
 --local file = io.open("token.tkn", "r")
 --local token = file:read "*a"
 --file:close()
