@@ -1,1 +1,1 @@
-web: luvit ereshbot.lua
+worker: luvit ereshbot.lua
