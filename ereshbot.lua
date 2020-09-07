@@ -120,9 +120,10 @@ client:on('messageCreate', function(message)
             end
 
         elseif(file_exists(msgCmd)) then
-            coroutine.wrap(function() 
-                connection:playFFmpeg(msgCmd..".mp3")
-            end)()
+            --coroutine.wrap(function() 
+                --connection:playFFmpeg(msgCmd..".mp3")
+            --end)()
+            answered = true
 
         --[[elseif(msgCmd == 'rapaz') then
             local connection = member.voiceChannel:join()
