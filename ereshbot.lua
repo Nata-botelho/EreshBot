@@ -229,8 +229,15 @@ dice = function(message)
 end 
 
 function file_exists(name)
-    local f=io.open(name .. ".mp3","r")
-    if f~=nil then io.close(f) return true else return false end
+    local f=io.open(name,"r")
+    if f~=nil then
+        io.close(f)
+        message.channel:send('encontrado')
+        return true 
+    else 
+        message.channel:send('n encontrado')
+        return false 
+    end
  end
 
 client:run("Bot "..token)
