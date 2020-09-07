@@ -17,6 +17,7 @@ print("Server listening on port "..port)
 --local file = io.open("token.tkn", "r")
 --local token = file:read "*a"
 --file:close()
+
 local token = "NzA5MDY1OTEwMDk0MjY2NDI4.XrgfFg.xK1GWGVhQNZny2msEXHKfs-mP-Q"
 
 --initialize random number generation for dices
@@ -119,10 +120,11 @@ client:on('messageCreate', function(message)
                 end
             end
 
-        elseif(file_exists(msgCmd)) then
-            --coroutine.wrap(function() 
-                --connection:playFFmpeg(msgCmd..".mp3")
-            --end)()
+        elseif(file_exists(msgCmd, message)) then
+            local connection = member.voiceChannel:join()
+            coroutine.wrap(function() 
+                connection:playFFmpeg('audios/'..msgCmd..'.mp3')
+            end)()
             answered = true
 
         --[[elseif(msgCmd == 'rapaz') then
@@ -229,14 +231,12 @@ dice = function(message)
     end
 end 
 
-function file_exists(name)
-    local f=io.open(name,"r")
+function file_exists(name, message)
+    local f=io.open('audios/'..name..'.mp3',"r")
     if f~=nil then
         io.close(f)
-        message.channel:send('encontrado')
         return true 
     else 
-        message.channel:send('n encontrado')
         return false 
     end
  end
