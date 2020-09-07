@@ -83,7 +83,7 @@ client:on('messageCreate', function(message)
                         },
                         {
                             name = "AUDIOS",
-                            value = "` atumalaca`\n`cavalo`\n`ehmsmeh`\n`irra`\n`pare`\n`potencia`\n`qisso`\n`rapaz`\n`ratinho`\n`uepa`\n`xiii`\n",
+                            value = "`atumalaca`\n`cavalo`\n`ehmsmeh`\n`irra`\n`pare`\n`potencia`\n`qisso`\n`rapaz`\n`ratinho`\n`uepa`\n`xiii`\n",
                             inline = false
                         }
                     },
@@ -119,7 +119,12 @@ client:on('messageCreate', function(message)
                 end
             end
 
-        elseif(msgCmd == 'rapaz') then
+        elseif(file_exists(msgCmd)) then
+            coroutine.wrap(function() 
+                connection:playFFmpeg(msgCmd..".mp3")
+            end)()
+
+        --[[elseif(msgCmd == 'rapaz') then
             local connection = member.voiceChannel:join()
             coroutine.wrap(function() 
                 connection:playFFmpeg('audios/rapaz.mp3')
@@ -127,7 +132,9 @@ client:on('messageCreate', function(message)
         
         elseif(msgCmd == 'cavalo') then
             local connection = member.voiceChannel:join()
-            connection:playFFmpeg('audios/cavalo.mp3')
+            coroutine.wrap(function() 
+                connection:playFFmpeg('audios/cavalo.mp3')
+            end)()
 
         elseif(msgCmd == 'irra') then
             local connection = member.voiceChannel:join()
@@ -164,6 +171,7 @@ client:on('messageCreate', function(message)
         elseif(msgCmd == 'atumalaca')    then
             local connection = member.voiceChannel:join()
             connection:playFFmpeg('audios/atumalaca.mp3')
+        ]]
 
         elseif(msgCmd == 'discordia')    then
             message.channel:send('https://github.com/SinisterRectus/Discordia')
@@ -219,5 +227,10 @@ dice = function(message)
     else    return "error"
     end
 end 
+
+function file_exists(name)
+    local f=io.open(name .. ".mp3","r")
+    if f~=nil then io.close(f) return true else return false end
+ end
 
 client:run("Bot "..token)
