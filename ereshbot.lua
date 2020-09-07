@@ -121,10 +121,10 @@ client:on('messageCreate', function(message)
 
         elseif(msgCmd == 'rapaz') then
             local connection = member.voiceChannel:join()
-            coroutine.wrap(function()
+            coroutine.wrap(function() 
                 connection:playFFmpeg('audios/rapaz.mp3')
             end)()
-
+        
         elseif(msgCmd == 'cavalo') then
             local connection = member.voiceChannel:join()
             connection:playFFmpeg('audios/cavalo.mp3')
@@ -219,16 +219,5 @@ dice = function(message)
     else    return "error"
     end
 end 
-
-function sleep(s)
-    local ntime = os.clock() + s/10
-    repeat until os.clock() > ntime
-end
-
-function checkActivity(connection)
-    do
-        sleep(20)
-    while(connection.)
-end
 
 client:run("Bot "..token)
