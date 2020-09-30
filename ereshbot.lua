@@ -13,11 +13,6 @@ http.createServer(function(req, res)
 	res:finish(body)
 end):listen(port)
 
-print("Server listening on port "..port)
---local file = io.open("token.tkn", "r")
---local token = file:read "*a"
---file:close()
-
 local token = "NzA5MDY1OTEwMDk0MjY2NDI4.XrgfFg.xK1GWGVhQNZny2msEXHKfs-mP-Q"
 
 --initialize random number generation for dices
@@ -126,55 +121,6 @@ client:on('messageCreate', function(message)
                 connection:playFFmpeg('audios/'..msgCmd..'.mp3')
             end)()
             answered = true
-
-        --[[elseif(msgCmd == 'rapaz') then
-            local connection = member.voiceChannel:join()
-            coroutine.wrap(function() 
-                connection:playFFmpeg('audios/rapaz.mp3')
-            end)()
-        
-        elseif(msgCmd == 'cavalo') then
-            local connection = member.voiceChannel:join()
-            coroutine.wrap(function() 
-                connection:playFFmpeg('audios/cavalo.mp3')
-            end)()
-
-        elseif(msgCmd == 'irra') then
-            local connection = member.voiceChannel:join()
-            connection:playFFmpeg('audios/irra.mp3')
-
-        elseif(msgCmd == 'xiii')    then
-            local connection = member.voiceChannel:join()
-            connection:playFFmpeg('audios/xiii.mp3')
-        
-        elseif(msgCmd == 'pare')    then
-            local connection = member.voiceChannel:join()
-            connection:playFFmpeg('audios/pare.mp3')
-
-        elseif(msgCmd == 'potencia')    then
-            local connection = member.voiceChannel:join()
-            connection:playFFmpeg('audios/potencia.mp3')
-
-        elseif(msgCmd == 'qisso')    then
-            local connection = member.voiceChannel:join()
-            connection:playFFmpeg('audios/qisso.mp3')
-        
-        elseif(msgCmd == 'ratinho')    then
-            local connection = member.voiceChannel:join()
-            connection:playFFmpeg('audios/ratinho.mp3')
-
-        elseif(msgCmd == 'uepa')    then
-            local connection = member.voiceChannel:join()
-            connection:playFFmpeg('audios/uepa.mp3')
-
-        elseif(msgCmd == 'ehmsmeh')    then
-            local connection = member.voiceChannel:join()
-            connection:playFFmpeg('audios/ehmsmeh.mp3')
-
-        elseif(msgCmd == 'atumalaca')    then
-            local connection = member.voiceChannel:join()
-            connection:playFFmpeg('audios/atumalaca.mp3')
-        ]]
 
         elseif(msgCmd == 'discordia')    then
             message.channel:send('https://github.com/SinisterRectus/Discordia')
