@@ -79,7 +79,7 @@ client:on('messageCreate', function(message)
                         },
                         {
                             name = "AUDIOS",
-                            value = "`atumalaca`\n`cavalo`\n`ehmsmeh`\n`irra`\n`pare`\n`potencia`\n`qisso`\n`rapaz`\n`ratinho`\n`uepa`\n`xiii`\n",
+                            value = "`atumalaca`\n`bandido`\n`cavalo`\n`dizerumacoisa`\n`ehmsmeh`\n`eutbm`\n`irra`\n`naova`\n`pare`\n`pauquebrando`\n`potencia`\n`qdelicia`\n`qisso`\n`rapaz`\n`ratinho`\n`saidesgraca`\n`uepa`\n`xiii`\n",
                             inline = false
                         }
                     },
