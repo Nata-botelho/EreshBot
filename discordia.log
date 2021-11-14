@@ -12812,3 +12812,357 @@
 2021-11-12 22:21:22 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
 2021-11-12 22:21:22 | [INFO]    | Voice : Received HELLO
 2021-11-12 22:21:22 | [INFO]    | Voice : Received READY
+2021-11-13 16:19:11 | [INFO]    | Discordia 2.8.3
+2021-11-13 16:19:11 | [INFO]    | Connecting to Discord...
+2021-11-13 16:19:22 | [ERROR]   | Could not authenticate, check token: C:/Users/nbote/Desktop/ereshbot/ereshbot/deps/coro-http.lua:74: EAI_NONAME
+2021-11-13 16:19:26 | [INFO]    | Discordia 2.8.3
+2021-11-13 16:19:26 | [INFO]    | Connecting to Discord...
+2021-11-13 16:19:27 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 16:19:27 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 16:19:30 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 16:19:30 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 16:19:30 | [INFO]    | Shard 0 : Received READY
+2021-11-13 16:19:41 | [ERROR]   | Cannot prepare voice connection: libopus not found
+2021-11-13 16:44:54 | [INFO]    | Discordia 2.8.3
+2021-11-13 16:44:54 | [INFO]    | Connecting to Discord...
+2021-11-13 16:44:54 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 16:44:54 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 16:44:55 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 16:44:55 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 16:44:55 | [INFO]    | Shard 0 : Received READY
+2021-11-13 16:45:03 | [ERROR]   | Cannot prepare voice connection: libopus not found
+2021-11-13 19:32:03 | [INFO]    | Discordia 2.8.3
+2021-11-13 19:32:03 | [INFO]    | Connecting to Discord...
+2021-11-13 19:32:11 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 19:32:12 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 19:32:12 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 19:32:12 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 19:32:12 | [INFO]    | Shard 0 : Received READY
+2021-11-13 19:32:21 | [ERROR]   | Cannot prepare voice connection: libopus not found
+2021-11-13 19:39:34 | [INFO]    | Discordia 2.8.3
+2021-11-13 19:39:34 | [INFO]    | Connecting to Discord...
+2021-11-13 19:39:34 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 19:39:34 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 19:39:34 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 19:39:34 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 19:39:34 | [INFO]    | Shard 0 : Received READY
+2021-11-13 19:39:41 | [ERROR]   | Cannot prepare voice connection: libopus not found
+2021-11-13 19:40:35 | [INFO]    | Discordia 2.8.3
+2021-11-13 19:40:35 | [INFO]    | Connecting to Discord...
+2021-11-13 19:40:35 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 19:40:35 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 19:40:36 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 19:40:36 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 19:40:36 | [INFO]    | Shard 0 : Received READY
+2021-11-13 19:40:41 | [ERROR]   | Cannot prepare voice connection: libopus not found
+2021-11-13 19:41:14 | [INFO]    | Discordia 2.8.3
+2021-11-13 19:41:14 | [INFO]    | Connecting to Discord...
+2021-11-13 19:41:15 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 19:41:15 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 19:41:15 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 19:41:15 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 19:41:15 | [INFO]    | Shard 0 : Received READY
+2021-11-13 19:41:20 | [ERROR]   | Cannot prepare voice connection: libopus not found
+2021-11-13 19:42:04 | [INFO]    | Discordia 2.8.3
+2021-11-13 19:42:04 | [INFO]    | Connecting to Discord...
+2021-11-13 19:42:04 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 19:42:04 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 19:42:05 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 19:42:05 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 19:42:05 | [INFO]    | Shard 0 : Received READY
+2021-11-13 19:42:09 | [ERROR]   | Cannot prepare voice connection: libopus not found
+2021-11-13 19:43:52 | [INFO]    | Discordia 2.8.3
+2021-11-13 19:43:52 | [INFO]    | Connecting to Discord...
+2021-11-13 19:43:53 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 19:43:53 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 19:43:53 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 19:43:53 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 19:43:53 | [INFO]    | Shard 0 : Received READY
+2021-11-13 19:43:57 | [ERROR]   | Cannot prepare voice connection: libopus not found
+2021-11-13 19:44:17 | [INFO]    | Discordia 2.8.3
+2021-11-13 19:44:17 | [INFO]    | Connecting to Discord...
+2021-11-13 19:44:17 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 19:44:17 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 19:44:17 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 19:44:17 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 19:44:18 | [INFO]    | Shard 0 : Received READY
+2021-11-13 19:44:22 | [ERROR]   | Cannot prepare voice connection: libsodium not found
+2021-11-13 19:56:10 | [INFO]    | Discordia 2.8.3
+2021-11-13 19:56:10 | [INFO]    | Connecting to Discord...
+2021-11-13 19:56:11 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 19:56:11 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 19:56:11 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 19:56:11 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 19:56:11 | [INFO]    | Shard 0 : Received READY
+2021-11-13 19:56:21 | [ERROR]   | Cannot prepare voice connection: libsodium not found
+2021-11-13 19:59:40 | [INFO]    | Discordia 2.8.3
+2021-11-13 19:59:40 | [INFO]    | Connecting to Discord...
+2021-11-13 19:59:46 | [INFO]    | Discordia 2.8.3
+2021-11-13 19:59:46 | [INFO]    | Connecting to Discord...
+2021-11-13 19:59:48 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 19:59:48 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 19:59:48 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 19:59:48 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 19:59:48 | [INFO]    | Shard 0 : Received READY
+2021-11-13 19:59:54 | [ERROR]   | Cannot prepare voice connection: libsodium not found
+2021-11-13 20:02:01 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:02:01 | [INFO]    | Connecting to Discord...
+2021-11-13 20:02:02 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:02:02 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:02:02 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:02:02 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:02:02 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:02:08 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:02:08 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:02:08 | [INFO]    | Voice : Received READY
+2021-11-13 20:14:07 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:14:07 | [INFO]    | Connecting to Discord...
+2021-11-13 20:14:07 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:14:07 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:14:07 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:14:07 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:14:08 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:14:17 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:14:17 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:14:17 | [INFO]    | Voice : Received READY
+2021-11-13 20:15:47 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:15:47 | [INFO]    | Connecting to Discord...
+2021-11-13 20:15:47 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:15:47 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:15:47 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:15:47 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:15:48 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:15:52 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:15:52 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:15:52 | [INFO]    | Voice : Received READY
+2021-11-13 20:17:10 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:17:10 | [INFO]    | Connecting to Discord...
+2021-11-13 20:17:10 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:17:10 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:17:11 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:17:11 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:17:11 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:17:16 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:17:16 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:17:16 | [INFO]    | Voice : Received READY
+2021-11-13 20:21:29 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:21:29 | [INFO]    | Connecting to Discord...
+2021-11-13 20:21:29 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:21:29 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:21:30 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:21:30 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:21:30 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:21:34 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:21:34 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:21:34 | [INFO]    | Voice : Received READY
+2021-11-13 20:23:59 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:23:59 | [INFO]    | Connecting to Discord...
+2021-11-13 20:23:59 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:23:59 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:24:00 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:24:00 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:24:00 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:24:14 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:24:14 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:24:14 | [INFO]    | Voice : Received READY
+2021-11-13 20:24:27 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:24:27 | [INFO]    | Connecting to Discord...
+2021-11-13 20:24:27 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:24:27 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:24:28 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:24:28 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:24:28 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:24:33 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:24:33 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:24:33 | [INFO]    | Voice : Received READY
+2021-11-13 20:26:37 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:26:37 | [INFO]    | Connecting to Discord...
+2021-11-13 20:26:37 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:26:37 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:26:37 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:26:37 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:26:38 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:26:46 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:26:46 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:26:46 | [INFO]    | Voice : Received READY
+2021-11-13 20:27:26 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:27:26 | [INFO]    | Connecting to Discord...
+2021-11-13 20:27:27 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:27:27 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:27:27 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:27:27 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:27:27 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:27:43 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:27:43 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:27:43 | [INFO]    | Voice : Received READY
+2021-11-13 20:31:10 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:31:10 | [INFO]    | Connecting to Discord...
+2021-11-13 20:31:10 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:31:10 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:31:11 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:31:11 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:31:12 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:31:26 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:31:26 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:31:26 | [INFO]    | Voice : Received READY
+2021-11-13 20:33:38 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:33:38 | [INFO]    | Connecting to Discord...
+2021-11-13 20:33:38 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:33:39 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:33:39 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:33:39 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:33:39 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:33:50 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:33:50 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:33:50 | [INFO]    | Voice : Received READY
+2021-11-13 20:34:21 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:34:21 | [INFO]    | Connecting to Discord...
+2021-11-13 20:34:21 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:34:21 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:34:21 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:34:21 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:34:22 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:34:32 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:34:32 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:34:32 | [INFO]    | Voice : Received READY
+2021-11-13 20:34:58 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:34:58 | [INFO]    | Connecting to Discord...
+2021-11-13 20:34:58 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:34:58 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:34:58 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:34:58 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:34:58 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:35:07 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:35:07 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:35:07 | [INFO]    | Voice : Received READY
+2021-11-13 20:35:40 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:35:40 | [INFO]    | Connecting to Discord...
+2021-11-13 20:35:40 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:35:40 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:35:40 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:35:40 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:35:40 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:35:52 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:35:52 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:35:52 | [INFO]    | Voice : Received READY
+2021-11-13 20:36:08 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:36:08 | [INFO]    | Connecting to Discord...
+2021-11-13 20:36:08 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:36:08 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:36:08 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:36:08 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:36:09 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:36:16 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:36:16 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:36:16 | [INFO]    | Voice : Received READY
+2021-11-13 20:38:33 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:38:33 | [INFO]    | Connecting to Discord...
+2021-11-13 20:38:33 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:38:33 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:38:33 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:38:33 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:38:34 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:38:52 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:38:52 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:38:52 | [INFO]    | Voice : Received READY
+2021-11-13 20:39:15 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:39:15 | [INFO]    | Connecting to Discord...
+2021-11-13 20:39:15 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:39:15 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:39:15 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:39:15 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:39:16 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:39:25 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:39:25 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:39:25 | [INFO]    | Voice : Received READY
+2021-11-13 20:41:25 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:41:25 | [INFO]    | Connecting to Discord...
+2021-11-13 20:41:25 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:41:25 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:41:25 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:41:25 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:41:26 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:41:57 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:41:57 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:41:57 | [INFO]    | Voice : Received READY
+2021-11-13 20:42:50 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:42:50 | [INFO]    | Connecting to Discord...
+2021-11-13 20:42:51 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:42:51 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:42:51 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:42:51 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:42:51 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:42:59 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:42:59 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:42:59 | [INFO]    | Voice : Received READY
+2021-11-13 20:43:55 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:43:55 | [INFO]    | Connecting to Discord...
+2021-11-13 20:43:55 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:43:55 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:43:55 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:43:55 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:43:56 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:44:06 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:44:06 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:44:06 | [INFO]    | Voice : Received READY
+2021-11-13 20:44:29 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:44:29 | [INFO]    | Connecting to Discord...
+2021-11-13 20:44:29 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:44:29 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:44:29 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:44:29 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:44:30 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:44:36 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:44:36 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:44:36 | [INFO]    | Voice : Received READY
+2021-11-13 20:46:58 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:46:58 | [INFO]    | Connecting to Discord...
+2021-11-13 20:46:58 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:46:58 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:46:59 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:46:59 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:46:59 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:47:08 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:47:08 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:47:08 | [INFO]    | Voice : Received READY
+2021-11-13 20:48:40 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:48:40 | [INFO]    | Connecting to Discord...
+2021-11-13 20:48:40 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:48:40 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:48:40 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:48:40 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:48:40 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:48:46 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:48:46 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:48:46 | [INFO]    | Voice : Received READY
+2021-11-13 20:52:32 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:52:32 | [INFO]    | Connecting to Discord...
+2021-11-13 20:52:32 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:52:32 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:52:32 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:52:32 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:52:33 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:52:42 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 20:52:42 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:52:42 | [INFO]    | Voice : Received READY
+2021-11-13 20:56:00 | [INFO]    | Discordia 2.8.3
+2021-11-13 20:56:00 | [INFO]    | Connecting to Discord...
+2021-11-13 20:56:00 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 20:56:00 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 20:56:00 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 20:56:00 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 20:56:00 | [INFO]    | Shard 0 : Received READY
+2021-11-13 20:56:15 | [INFO]    | Voice : Connected to wss://brazil10016.discord.media
+2021-11-13 20:56:15 | [INFO]    | Voice : Received HELLO
+2021-11-13 20:56:15 | [INFO]    | Voice : Received READY
+2021-11-13 20:58:52 | [WARNING] | Voice : Unhandled WebSocket payload OP 14
+2021-11-13 21:00:59 | [INFO]    | Discordia 2.8.3
+2021-11-13 21:00:59 | [INFO]    | Connecting to Discord...
+2021-11-13 21:01:02 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-13 21:01:02 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-13 21:01:03 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-13 21:01:03 | [INFO]    | Shard 0 : Received HELLO
+2021-11-13 21:01:03 | [INFO]    | Shard 0 : Received READY
+2021-11-13 21:01:11 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
+2021-11-13 21:01:11 | [INFO]    | Voice : Received HELLO
+2021-11-13 21:01:11 | [INFO]    | Voice : Received READY

@@ -79,7 +79,7 @@ client:on('messageCreate', function(message)
                         },
                         {
                             name = "AUDIOS",
-                            value = "`atumalaca`\n`bandido`\n`cavalo`\n`dizerumacoisa`\n`doot`\n`ehmsmeh`\n`eutbm`\n`miau`\n`irra`\n`naova`\n`pare`\n`pauquebrando`\n`potencia`\n`qdelicia`\n`qisso`\n`rapaz`\n`ratinho`\n`saidesgraca`\n`uepa`\n`xiii`\n",
+                            value = "`atumalaca`\n`bandido`\n`cavalo`\n`dizerumacoisa`\n`doot`\n`ehmsmeh`\n`eutbm`\n`irra`\n`kekw`\n`miau`\n`naova`\n`pare`\n`pauquebrando`\n`potencia`\n`qdelicia`\n`qisso`\n`rapaz`\n`ratinho`\n`saidesgraca`\n`uepa`\n`xiii`\n",
                             inline = false
                         }
                     },
@@ -101,6 +101,7 @@ client:on('messageCreate', function(message)
                 local stream = {}
 
                 initStream(msgArg, stream)
+                local status = coroutine.status(Play)
 
                 if(stream == -1)  then
                     message.channel:send('Erro: Vídeo não disponível')
@@ -110,8 +111,12 @@ client:on('messageCreate', function(message)
                     stream.connection = connection
                     stream.requester = member
                     stream.channel = message.channel
-
-                    manageQueue(streamQueue, stream)
+                    
+                    table.insert(streamQueue, stream)
+                    print(status)
+                    if (status == "dead" or status == "normal" or status == "suspended") then
+                        coroutine.resume(Play, streamQueue)
+                    end
                 end
             end
             answered = true
@@ -211,16 +216,13 @@ function initStream(url, stream)
     stream.title = data.title
 
 end
-
+--[[
 function playStream(stream)
     if(stream ==  nil) then return -1 end
-    print("ih")
+
     coroutine.wrap( function ()
-        print("hi")
         stream.channel:send("Playing "..stream.title)
         stream.connection:playFFmpeg(stream.url)
-        print("remover da queue")
-
         return 1
     end)()
 end
@@ -242,28 +244,24 @@ function removeQueue(queue)
     end
     print("removido")
 end
+]]--
+Play = coroutine.create(function (queue)
 
-function manageQueue(queue, stream)
+    while true do
 
-    local streamLocked = false
+        if (tableLength(queue) > 0)    then
+            print("um eh maior q zero")
+            local actualStream = queue[1]
+            print(actualStream.title)
 
-    pushQueue(streamQueue, stream)
-    print("Queue size: "..tableLength(queue))
-
-    if (tableLength(queue) == 1)    then
-        coroutine.wrap( function()
-            while (tableLength(queue) > 0) do
-                if (streamLocked == false)  then
-                    streamLocked = true
-                    if(playStream(streamQueue[0]) == 1) then
-                        removeQueue(streamQueue)
-                        streamLock = false
-                    end
-                end
-            end
-        end )()
+            table.remove(queue, 1)
+            actualStream.channel:send("Playing "..actualStream.title)
+            actualStream.connection:playFFmpeg(actualStream.url)
+        else
+            break
+        end
     end
-end
+end)
 
 -- declare local variables
 --// exportstring( string )
