@@ -13166,3 +13166,13 @@
 2021-11-13 21:01:11 | [INFO]    | Voice : Connected to wss://brazil6561.discord.media
 2021-11-13 21:01:11 | [INFO]    | Voice : Received HELLO
 2021-11-13 21:01:11 | [INFO]    | Voice : Received READY
+2021-11-19 20:17:45 | [INFO]    | Discordia 2.8.3
+2021-11-19 20:17:45 | [INFO]    | Connecting to Discord...
+2021-11-19 20:17:45 | [INFO]    | Authenticated as EreshBot#0778
+2021-11-19 20:17:46 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-19 20:17:46 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-19 20:17:46 | [INFO]    | Shard 0 : Received HELLO
+2021-11-19 20:17:46 | [INFO]    | Shard 0 : Received READY
+2021-11-19 20:17:53 | [INFO]    | Voice : Connected to wss://brazil4011.discord.media
+2021-11-19 20:17:53 | [INFO]    | Voice : Received HELLO
+2021-11-19 20:17:53 | [INFO]    | Voice : Received READY
