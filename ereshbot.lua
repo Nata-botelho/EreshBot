@@ -79,7 +79,7 @@ client:on('messageCreate', function(message)
                         },
                         {
                             name = "AUDIOS",
-                            value = "`atumalaca`\n`bandido`\n`cavalo`\n`dizerumacoisa`\n`doot`\n`ehmsmeh`\n`eutbm`\n`fdp`\n`irra`\n`kekw`\n`lagarto`\n`miau`\n`naova`\n`pare`\n`pauquebrando`\n`potencia`\n`qdelicia`\n`qisso`\n`rapaz`\n`ratinho`\n`saidesgraca`\n`uepa`\n`xiii`\n",
+                            value = "`atumalaca`\n`bandido`\n`cavalo`\n`dizerumacoisa`\n`doot`\n`ehmsmeh`\n`eutbm`\n`fdp`\n`irra`\n`kekw`\n`lagarto`\n`miau`\n`naova`\n`pare`\n`pauquebrando`\n`potencia`\n`qdelicia`\n`qisso`\n`rapaz`\n`ratinho`\n`saidesgraca`\n`tamaluco`\n`uepa`\n`xiii`\n",
                             inline = false
                         }
                     },
@@ -100,7 +100,7 @@ client:on('messageCreate', function(message)
             elseif (member) then
                 local stream = {}
 
-                initStream(msgArg, stream)
+                InitStream(msgArg, stream)
                 local status = coroutine.status(Play)
 
                 if(stream == -1)  then
@@ -121,7 +121,7 @@ client:on('messageCreate', function(message)
             end
             answered = true
 
-        elseif(file_exists(msgCmd)) then
+        elseif(File_exists(msgCmd)) then
             local connection = member.voiceChannel:join()
             coroutine.wrap(function() 
                 connection:playFFmpeg('audios/'..msgCmd..'.mp3')
@@ -142,7 +142,7 @@ client:on('messageCreate', function(message)
             answered = true
             
         elseif(answered == false) then
-            local result = dice(msgCmd)
+            local result = Dice(msgCmd)
             if(type(result) == "number")  then 
                 if(member and member.nickname ~= nil) then
                     message.channel:send(member.nickname..' tirou: '..result)
@@ -160,7 +160,7 @@ client:on('messageCreate', function(message)
 end)
 
 --função que retorna o valor do dado
-dice = function(message)
+Dice = function(message)
     if (message == 'd4') then
         return(math.random(1, 4))
     elseif (message =='d6') then
@@ -177,7 +177,7 @@ dice = function(message)
     end
 end 
 
-function file_exists(name)
+function File_exists(name)
     local f=io.open('audios/'..name..'.mp3',"r")
     if f~=nil then
         io.close(f)
@@ -187,7 +187,7 @@ function file_exists(name)
     end
 end
 
-function tableLength(table)
+function TableLength(table)
     local count = 0
     for x, y in pairs(table) do 
         count = count+1 
@@ -195,7 +195,7 @@ function tableLength(table)
     return count
 end
 
-function initStream(url, stream)
+function InitStream(url, stream)
 
     local cmd = 'youtube-dl -j --skip-download -f 251 '..url
     local handle
@@ -229,16 +229,16 @@ end
 
 function pushQueue(queue, stream)
 
-    print(stream.title.." added in queue on pos "..tableLength(queue))
-    queue[tableLength(queue)] = stream
+    print(stream.title.." added in queue on pos "..TableLength(queue))
+    queue[TableLength(queue)] = stream
 
-    stream.channel:send("Song "..stream.title.." added in queue on pos #"..tableLength(queue))
+    stream.channel:send("Song "..stream.title.." added in queue on pos #"..TableLength(queue))
 
 end
 
 function removeQueue(queue)
     
-    for x=0, tableLength(queue), 1 do
+    for x=0, TableLength(queue), 1 do
         queue[x] = queue[x+1]
         queue[x+1] = nil
     end
@@ -249,7 +249,7 @@ Play = coroutine.create(function (queue)
 
     while true do
 
-        if (tableLength(queue) > 0)    then
+        if (TableLength(queue) > 0)    then
             print("um eh maior q zero")
             local actualStream = queue[1]
             print(actualStream.title)
