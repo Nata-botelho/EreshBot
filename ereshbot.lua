@@ -16,7 +16,7 @@ http.createServer(function(req, res)
 	res:finish(body)
 end):listen(port)]]--
 
-local token = "NzA5MDY1OTEwMDk0MjY2NDI4.XrgfFg.xK1GWGVhQNZny2msEXHKfs-mP-Q"
+local token = ""
 
 --initialize random number generation for dices
 math.randomseed(os.time())
